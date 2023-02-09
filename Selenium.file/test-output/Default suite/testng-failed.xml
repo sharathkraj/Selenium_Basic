@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.test">
+      <class name="DataDrivenEg.CorrectUserName">
         <methods>
-          <include name="i_want_to_write_a_step_with_precondition"/>
+          <include name="loginCorrectUserName"/>
         </methods>
-      </class> <!-- practice.test -->
+      </class> <!-- DataDrivenEg.CorrectUserName -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
