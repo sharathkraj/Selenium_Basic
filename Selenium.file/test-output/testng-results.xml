@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T11:36:36 IST" name="Default suite" finished-at="2023-02-08T11:36:49 IST" duration-ms="13683">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T11:36:36 IST" name="Default test" finished-at="2023-02-08T11:36:49 IST" duration-ms="13683">
+      <class name="practice.test">
+        <test-method signature="i_want_to_write_a_step_with_precondition()[pri:0, instance:practice.test@32ee6fee]" started-at="2023-02-08T11:36:36 IST" name="i_want_to_write_a_step_with_precondition" finished-at="2023-02-08T11:36:49 IST" duration-ms="13607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_want_to_write_a_step_with_precondition -->
+      </class> <!-- practice.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -39,7 +39,7 @@ package ExploringWebDriver;
 			
 			List<WebElement> allchange = driver.findElements(By.xpath("//td[3]"));
 			
-			System.out.println("found the column kd test");
+			System.out.println("found the column");
 			
 			List<Integer> noList = new ArrayList<Integer>();
 			
