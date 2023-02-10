@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-09T18:23:23 IST" name="Login Suite" finished-at="2023-02-09T18:23:48 IST" duration-ms="25247">
+    <groups>
+    </groups>
+    <test started-at="2023-02-09T18:23:23 IST" name="Login BothIncorrect" finished-at="2023-02-09T18:23:31 IST" duration-ms="7919">
+      <class name="DataDrivenEg.BothIncorrect">
+        <test-method signature="loginBothInCorrect(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenEg.BothIncorrect@3bf9ce3e]" started-at="2023-02-09T18:23:23 IST" name="loginBothInCorrect" finished-at="2023-02-09T18:23:31 IST" duration-ms="7830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBothInCorrect -->
+      </class> <!-- DataDrivenEg.BothIncorrect -->
+    </test> <!-- Login BothIncorrect -->
+    <test started-at="2023-02-09T18:23:31 IST" name="Login CorrectUserName" finished-at="2023-02-09T18:23:36 IST" duration-ms="4610">
+      <class name="DataDrivenEg.CorrectUserName">
+        <test-method signature="loginCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenEg.CorrectUserName@61001b64]" started-at="2023-02-09T18:23:31 IST" name="loginCorrectUserName" finished-at="2023-02-09T18:23:36 IST" duration-ms="4606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrectUserName -->
+      </class> <!-- DataDrivenEg.CorrectUserName -->
+    </test> <!-- Login CorrectUserName -->
+    <test started-at="2023-02-09T18:23:36 IST" name="Login CorrectPassword" finished-at="2023-02-09T18:23:43 IST" duration-ms="7125">
+      <class name="DataDrivenEg.CorrectPassword">
+        <test-method signature="loginCorrectPassword(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenEg.CorrectPassword@1b11171f]" started-at="2023-02-09T18:23:36 IST" name="loginCorrectPassword" finished-at="2023-02-09T18:23:43 IST" duration-ms="7119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@fourbends.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrectPassword -->
+      </class> <!-- DataDrivenEg.CorrectPassword -->
+    </test> <!-- Login CorrectPassword -->
+    <test started-at="2023-02-09T18:23:43 IST" name="Login BothCorrect" finished-at="2023-02-09T18:23:48 IST" duration-ms="5510">
+      <class name="DataDrivenEg.BothCorrect">
+        <test-method signature="loginBothCorrect(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenEg.BothCorrect@428640fa]" started-at="2023-02-09T18:23:43 IST" name="loginBothCorrect" finished-at="2023-02-09T18:23:48 IST" duration-ms="5505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@fourbends.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBothCorrect -->
+      </class> <!-- DataDrivenEg.BothCorrect -->
+    </test> <!-- Login BothCorrect -->
+  </suite> <!-- Login Suite -->
+</testng-results>
