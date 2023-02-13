@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MCF_TestNG.TestNG_MCF_E2E">
+        <methods>
+          <include name="main"/>
+          <include name="sendToAddress"/>
+          <include name="basicformInfo"/>
+          <include name="loginintoMCF"/>
+          <include name="questionSetup"/>
+          <include name="autoResponder"/>
+          <include name="newFormwizard"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="startWizard"/>
+          <include name="formAppearance"/>
+          <include name="emailSub"/>
+        </methods>
+      </class> <!-- MCF_TestNG.TestNG_MCF_E2E -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
